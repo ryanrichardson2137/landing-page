@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>Redskins Fan Pack</title>
+ <link href="landingcss/cart.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+ <link href="https://fonts.googleapis.com/css?family=Lobster|Lora|Roboto+Slab:100" rel="stylesheet">
+</head>
+
+<body>
+ <section id="cart-page">
+  <div class="top-nav">
+   <a href="index.html"><h1><span id="redskin">Redskin's</span> box</h1></a>
+   <a href="cart.html"><i class="fas fa-shopping-cart fa-2x"></i></a> 
+  </div>
+  <div class="cart-contain">
+   <h1 id="new-h1">Your Shopping Cart</h1>
+    <div class="cart-info">
+     <table>
+      <thead>
+       <td colspan="2" rowspan="2">Item</td>
+       <td>Price</td>   
+       <td>Quantity</td>   
+       <td>Total</td>   
+      </thead>
+      <tbody>
+       <td colspan="2">Redskin's Box</td>
+       <td><span id="price">90.00</span></td>
+       <td><input type="number" value="1" min="1"></td>
+       <td><span id="total1">$90.00</span></td>
+      </tbody>
+     </table>
+      <h2>$<span id="total2">90.00</span></h2>
+      <p>Excludes shipping and tax</p>
+      <button class="btn" id="update" type="button">Update</button>
+      <button class="btn" type="submit">Check Out</button>
+    </div>
+  </div>
+ </section>
+ <section id="find">
+  <h2>Find us online</h2>
+   <a><i class="fab fa-facebook"></i> Facebook</a>
+   <a><i class="fab fa-twitter"></i> Twitter</a>
+   <a><i class="fab fa-instagram"></i> Instagram</a>
+   <a><i class="fab fa-pinterest"></i> Pinterest</a>
+ </section>
+  <script src="javascript-files/jquery.js"></script>
+  <script src="javascript-files/cart.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>  
+</body>
+</html>
